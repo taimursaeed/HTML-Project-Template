@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Markup Kick Start">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Markup Kick Start">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#ff0000">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#ff0000">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/css/app.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body>
+    <div class="col-xs-4 col-xs-offset-4">
+
+        <!-- For class names words should be separated by a hyphen -->
+        <h1 class="my-class">Hello World </h1>
+
+        <form>
+
+            <!-- For a component that can be used multiple times, apply JS via class name  -->
+            <div class="form-group">
+                <label for="typeSomething">Type something</label>
+                <input type="text" class="form-control" name="typeSomething" id="typeSomething">
+                <button class="js-showValue" type="button">Show Text</button>
+            </div>
+            <div class="form-group">
+                <label for="typeHereAsWell">Type here as well</label>
+                <input type="text" class="form-control" name="typeHereAsWell" id="typeHereAsWell">
+                <button class="js-showValue" type="button">Show Text</button>
+            </div>
+
+        </form>
+
+        <!-- For a component that is to be used once only, apply JS via ID. Follow camel case convetion for naming IDs  -->
+        <div class="color-component">
+            <span class="color"></span>
+            <button id="changeColor" type="button">Change Color</button>
+        </div>
+
+    </div>
+    <!-- Scripts -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+
+</html>

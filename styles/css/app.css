@@ -1,0 +1,16 @@
+body {
+  background: #f3f3f3;
+  padding: 20px; }
+
+.my-class {
+  color: red; }
+
+.color {
+  width: 100px;
+  height: 100px;
+  display: block;
+  background: red;
+  margin-bottom: 15px; }
+
+.form-group button {
+  margin-top: 15px; }

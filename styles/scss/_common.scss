@@ -1,0 +1,24 @@
+// Styles which are common
+body {
+    background: #f3f3f3;
+    padding: 20px;
+}
+
+//For class names words should be separated by a hyphen
+.my-class {
+    color: red;
+}
+
+.color {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: red;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    button {
+        margin-top: 15px;
+    }
+}
